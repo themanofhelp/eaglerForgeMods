@@ -1,0 +1,17 @@
+body { background-color: rgb(31, 31, 31); }
+
+h1 { color: rgb(255, 255, 255); font-size: 55px; }
+
+h2 { color:white; font-size: 40px; padding-top: 25px; padding-bottom: 15px;}
+
+span { color: rgb(120, 63, 163); font-size: 20px; }
+
+hr { height: 7px; border: none; background-color: rgb(43, 42, 42); }
+
+p { text-align: center; color: rgb(95, 0, 168); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 25px;}
+
+a { color: rgb(95, 0, 168); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 25px; }
+
+a:visited { color: rgb(95, 0, 168); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 25px; }
+
+a:hover { color: rgb(144, 0, 255); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 25px; }
