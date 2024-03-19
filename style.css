@@ -1,4 +1,13 @@
-body { background-color: rgb(31, 31, 31); }
+@font-face {
+    font-family: PressStart2p;
+    src: url("/fonts/PressStart2p.ttf");
+}
+
+* {
+    font-family: PressStart2p;
+}
+
+body { background-color: rgb(31, 31, 31);}
 
 h1 { color: rgb(255, 255, 255); font-size: 55px; }
 
@@ -8,10 +17,12 @@ span { color: rgb(120, 63, 163); font-size: 20px; }
 
 hr { height: 7px; border: none; background-color: rgb(43, 42, 42); }
 
-p { text-align: center; color: rgb(95, 0, 168); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 25px;}
+p { text-align: center; color: rgb(95, 0, 168); font-size: 25px;}
 
-a { color: rgb(95, 0, 168); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 25px; }
+a { color: rgb(95, 0, 168); font-size: 25px; }
 
-a:visited { color: rgb(95, 0, 168); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 25px; }
+a:visited { color: rgb(95, 0, 168); font-size: 25px; }
 
-a:hover { color: rgb(144, 0, 255); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 25px; }
+a:hover { color: rgb(144, 0, 255); font-size: 25px; }
+
+.seperator { padding-top: 20px; }
